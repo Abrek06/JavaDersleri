@@ -27,6 +27,7 @@ public class Main {
 		for(int i=0;i<kredi.length;i++) {
 			System.out.println(kredi[i]);
 		}
+		System.out.println("************************");
 		
 		int sayi1=10;
 		int sayi2=20;
@@ -39,7 +40,13 @@ public class Main {
 		sayilar1 = sayilar2;
 		sayilar2[0]=100;
 		System.out.println(sayilar1[0]);//100
+		System.out.println("************************");
 		
+		String sehir1 ="Ankara";
+		String sehir2 ="Ýstanbul";
+		sehir1=sehir2;
+		sehir2="Ýzmir";
+		System.out.println(sehir1);
 		
 
 	}
